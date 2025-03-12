@@ -1,5 +1,5 @@
 import {Suspense} from "react";
-import Tiptap from "@/components/Tiptap";
+import MarkdownEditor from "@/components/MarkdownEditor";
 
 export default function HomePage() {
   return (
@@ -7,7 +7,7 @@ export default function HomePage() {
         <h2 className="text-2xl font-bold mb-4">Välkommen till din Bibelstudie-app!</h2>
         <div>
             <Suspense>
-                <Tiptap />
+                <MarkdownEditor />
             </Suspense>
         </div>
       </div>
